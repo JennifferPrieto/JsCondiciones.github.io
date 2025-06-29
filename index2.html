@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <p>Desafio 2: Condiciones</p>
+            <div class="boton">
+                <a href="./index.html">Ejercicio 1: Borde </a>
+                <a href="./index2.html">Ejercicio 2: Stickers</a>
+                <a href="./index3.html">Ejercicio 3: Password</a> 
+            </div>
+            
+        </nav>
+    </div>
+
+    <h1>Selecciona tus stickers</h1>
+    <p>Puedes llevar hasta 10 stickers en total</p>
+
+    <div class="sticker-container">
+        
+        <div class="sticker">
+            <img class="img-sticker" src="./assets/img/1s.jpg" alt="coffe">
+            <input type="number" min="0" max="10" id="sticker1" value="0">
+        </div>
+         <div  class="sticker">
+            <img class="img-sticker" src="./assets/img/2s.jpg" alt="coffe">
+            <input type="number" min="0" max="10" id="sticker2" value="0">
+        </div>
+         <div class="sticker">
+            <img class="img-sticker" src="./assets/img/3s.jpg" alt="coffe">
+            <input type="number" min="0" max="10" id="sticker3" value="0">
+        </div>
+</div>
+
+
+        <button onclick="verificarStickers()">Verificar</button>
+
+        <p id="resultado"></p>
+
+
+
+       
+       
+   
+    
+    <script src="./assets/js/script2.js"></script>
+    
+</body>
+</html>
